@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Square(): JSX.Element {
-  return <button className="square">{/* TODO */}</button>;
+function Square(props: { value: number }): JSX.Element {
+  return <button className="square">{props.value}</button>;
 }
 
 export default Square;
